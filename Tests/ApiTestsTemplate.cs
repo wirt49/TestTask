@@ -23,7 +23,7 @@ namespace TestTask.Tests
         [Test]
         public void TestGetLoginFailTotal()
         {
-            var request = new RestRequest("/loginfailtotal", Method.GET);
+            var request = new RestRequest("/loginfailtotal", Method.Get);
             request.AddParameter("username", "testuser");
             request.AddParameter("fail_count", 5);
             request.AddParameter("fetch_limit", 10);
@@ -38,7 +38,7 @@ namespace TestTask.Tests
         [Test]
         public void TestResetLoginFailTotal()
         {
-            var request = new RestRequest("/resetloginfailtotal", Method.PUT);
+            var request = new RestRequest("/resetloginfailtotal", Method.Put);
             request.AddParameter("username", "testuser");
 
             RestResponse response = client.Execute(request);
