@@ -53,9 +53,11 @@ namespace TestTask.Tests
             
             string passwordValue = "123456";// Same as above here.
 
-            string actualUrl = "awdalkwndlnsa";
-            string expectedUrl = driver.Url;
-            Assert.Equals(actualUrl, expectedUrl);
+            string actualUrl = "awdalkwndlnsa";// Seems like you should change this variable name to 'expectedUrl'
+                                               // and use driver.Url property to get the URL.
+
+            string expectedUrl = driver.Url; // Vice versa here.  
+            Assert.Equals(actualUrl, expectedUrl); // Please add an assertaion message for the case if this Assert fails.
         }
 
         [TearDown]
