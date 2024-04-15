@@ -64,13 +64,5 @@ namespace TestTask.PageObjects
                 submitBotton.Click();
             }
         }
-
-        public string GetPageURL
-        {
-            get
-            {
-                return Driver.Url;
-            }
-        }
     }
 }

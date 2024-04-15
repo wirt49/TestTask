@@ -13,5 +13,13 @@ namespace TestTask.PageObjects
         }
 
         public IWebDriver Driver { get; }
+
+        public string GetCurrentPageUrl
+        {
+            get
+            {
+                return Driver.Url;
+            }
+        }
     }
 }

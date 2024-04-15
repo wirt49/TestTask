@@ -23,13 +23,5 @@ namespace TestTask.PageObjects
                 return header != null;
             }
         }
-
-        public string GetHomePageUrl
-        {
-            get
-            {
-                return Driver.Url;
-            }
-        }
     }
 }

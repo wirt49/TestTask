@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace TestTask.Tests
 {
     [TestFixture]
-    public class ApiTestsTemplate
+    public class ApiTestsTemplateTask3
     {
         private RestClient client;
         private const string baseUrl = ""; 

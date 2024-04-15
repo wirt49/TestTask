@@ -6,7 +6,7 @@ namespace TestTask.Tests
 {
     public class TestBase
     {
-        private readonly string url = "https://qa.sorted";
+        private readonly string url = "https://qa.sorted/homepage";
         private static IWebDriver? _driver;
 
         public static IWebDriver Driver

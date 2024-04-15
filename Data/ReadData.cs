@@ -13,7 +13,7 @@ namespace TestTask.Data
         {
             get
             {
-                yield return new TestCaseData("genuineUser@mail.com", "1234567", "https://qa.sorted.com/newtrack/loginsuccess");
+                yield return new TestCaseData("genuineUser@mail.com", "1234567", "https://qa.sorted.com/newtrack/logged");
             }
         }
     }
