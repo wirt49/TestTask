@@ -59,10 +59,7 @@ namespace TestTask.PageObjects
 
         public void ClickSubmitButton()
         {
-            if(submitBotton != null)
-            {
-                submitBotton.Click();
-            }
+            submitBotton?.Click();
         }
     }
 }

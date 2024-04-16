@@ -11,7 +11,7 @@ using TestTask.PageObjects;
 namespace TestTask.Tests
 {
     [TestFixture]
-    [TestOf("Login")]
+    [TestOf("LoginUI")]
     public class LoginTestsTask1: TestBase
     {
         LoginPage loginPage = new LoginPage(Driver);
